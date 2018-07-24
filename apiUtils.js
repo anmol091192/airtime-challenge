@@ -6,7 +6,7 @@ const get = path => {
     axios
       .get(`${API_ROOT}${path}`, {
         headers: {
-          'x-commander-email': 'abc@aa.com',
+          'x-commander-email': 'ank@anmol.com',
           'Content-Type': 'application/json'
         }
       })
@@ -24,7 +24,7 @@ const post = (path, data) => {
     axios
       .post(`${API_ROOT}${path}`, data, {
         headers: {
-          'x-commander-email': 'abc@aa.com'
+          'x-commander-email': 'ank@anmol.com'
         }
       })
       .then(response => {
